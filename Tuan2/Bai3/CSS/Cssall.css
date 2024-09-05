@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#khung{
+    width: 1200px;
+    height: 1000px;
+    background-image: url(../imgase/background.jpg);
+    border: 1px sloid black;
+    padding-top:10px;   
+}
+#header{
+    width: 780px;
+    height: 100px;
+    margin-left:10px;
+    background-color: aqua;
+    background-image: url(../imgase/salogo.jpg);
+}
+#section{
+
+    float: left;
+    width: 27%;
+    height: 750px;
+    border-right: 1px solid rgb(32, 149, 120);
+   
+}
+#menu{
+    width: 200px;
+    height: 150px;
+    background-color: aliceblue;
+    list-style-type: none;
+    border: 3px solid rgb(101, 96, 96);
+    clear: both;
+    box-shadow:10 10 0px red ;
+}
+#menu>li{
+    padding-top: 10px;
+    margin-right: 40px;
+}
+a{
+    text-decoration: none;
+}
+
+#heading1{
+    margin-right: 550px;
+    width: 70%;
+    height: 50px;
+    background-color: rgb(22, 187, 83);
+}
+#heading2{
+    margin-right: 550px;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(30, 171, 81);
+    font-size: 35px;
+    color: aliceblue;
+}
+#textheading1{
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 40px;
+}
+#textheading2{
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+#noidung{
+    margin-left: 30px;
+    float: left;
+    width: 67%;
+    height: 700px;
+   
+}
+#img1{
+    float: right;
+    height: 280px;
+    margin-right: 45px;
+}
+p{
+color: aliceblue;
+}
+#ok li{
+color: aliceblue;
+margin-left: 30px;
+}
+#footer{
+position: relative;
+top: 20px;
+width: 100%;
+height: 100px;
+color: aliceblue;
+text-align: center;
+border-top: 2px double rgb(50, 186, 136);
+clear: both;
+}
+#footer p{
+font-size: 20px;
+padding-top: 20px;
+}

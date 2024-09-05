@@ -1,0 +1,78 @@
+#khung{
+    height: 804px;
+    width: 1000px;
+    border: 1px solid black ;
+    margin: auto;
+}
+#header{
+    width: 98%;
+    height: 100px;
+    border-bottom: 3px solid rgb(237, 172, 19) ;
+    
+}
+#aside{
+    float:left;
+    width: 18.9%;
+    height: 700px;
+    background-image: url(../imgase/back.jpg);
+}
+#aside ur li{
+    
+    list-style-type: none;
+    padding-left: 15px;
+}
+#header img{
+    position: relative;
+    left: 670px;
+}
+#p1{
+    color: brown;
+}
+#p2{
+    color: rgb(30, 85, 197);
+}
+#khung1{
+    border-top: 5px solid rgb(237, 172, 19);
+    border-left: 5px solid rgb(237, 172, 19);
+    border-right: 5px solid rgb(191, 87, 8);
+    border-bottom: 5px solid rgb(191, 87, 8);
+    position: relative;
+    left: 600px;
+    top: -450px;
+    height: 230px;
+    width: 280px;
+    background-color: antiquewhite;
+}
+ul{
+    top:-20px;
+    position: relative;
+}
+#khung1 #p2{
+    font-size: 25px;
+    color: rgb(237, 172, 19);
+    padding-right: 80px;
+    top:-50px;
+    position: relative;
+}
+#khung1 li{
+    font-size: 14px;
+    color: rgb(228, 134, 11);
+    top:-30px;
+    position: relative;
+}
+#nav{
+    width: 98%;
+    height: 600px;
+
+    border-bottom: 3px solid rgb(237, 172, 19) ;
+}
+h1{
+    color: rgb(237, 172, 19);
+}
+#p3{
+    text-align: center;
+    color: rgb(237, 172, 19);
+}
+#p4{
+    font-size: 22px;
+}

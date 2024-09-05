@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1 B</title>
+    <style>
+        #khung{
+            width:1000px;
+            height:500px;
+            margin: auto;
+            border: 1px solid black;
+        }
+        #header{
+            width:100%;
+            height:60px;
+            text-shadow: 10px 14px 2px red;
+            color:brown;
+            text-align: center;
+            margin: auto;
+            border-bottom:1px solid black;
+        }
+        #menu{
+            border-bottom:1px solid black;
+            width: 100%;
+            height:60px;
+            background-color: rgb(214, 74, 74);
+        }
+        .menu-link {
+            color: aliceblue;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline;
+            margin-left: 10px;
+            border-right: 1px solid rgb(59, 33, 228);
+            padding-left: 10px;
+        }
+        a{
+            text-decoration: none;
+            padding-left: 10px;
+        }
+        nav{
+            width:100%;
+            height:40px;
+            color: brown;
+            background-color: antiquewhite;
+            font-size: 40px;
+        }
+        .highlight{
+            text-decoration: underline;
+            color:brown;
+        }
+        #layout{
+            margin-left: 40px;
+        }
+        #li1{
+            color: brown;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div id="khung">
+        <h1 id="header"><i>EXAMPLE CAFE MENU</i></h1>
+        <div id="menu">
+            <img src="../imgase/icons8-home-50.png" alt=" error" style="margin-left: 80px;">
+            <a href="" class="menu-link">STARTER</a>
+            <a href="" class="menu-link">MAIN COURSES</a>
+            <a href="" class="menu-link">DESSERTS</a>
+            <input type="text" name="" id="">
+            <button type="submit">Go</button>
+        </div>
+
+        <div id="menu1">
+            <nav>Starter</nav>
+            <div id="layout">
+                <li>Chestnut and Mushroom Goujons<span class="highlight">(v)</span></li>
+                <li>Goat Cheese Salad<span class="highlight">(v)</span></li>
+                <li id="li1">Honey Soy Chicken Kebabs<span class="highlight">(v)</span></li>
+                <li>Seafood Salad<span class="highlight">(v)</span></li>
+            </div>
+            <a href="">Back to top</a>
+        </div>
+      
+        <div id="menu2">
+            <nav>Desserts</nav>
+            <ul>
+                <li>Lemon Sorbet<span class="highlight">(v)</span></li>
+                <li>Chocolate Mud Pie<span class="highlight">(v)</span></li>
+                <li>Pecan Pie<span class="highlight">(v)</span></li>
+                <li>Selection of Fine Cheeses from Around the World<span class="highlight">(v)</span></li>
+            </ul>
+            <a href="">Back to top</a>
+        </div>
+    </div>
+</body>
+</html>
