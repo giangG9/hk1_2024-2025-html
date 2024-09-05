@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai3</title>
+    <style>
+        #k1{
+            width: 800px;
+            height: 730px;
+            margin: auto;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        #header{
+            border-top: 1px solid black;
+            width: 100%;
+            height: 90px;
+            border-bottom: 1px solid black;
+            background-color: rgb(174, 26, 26);
+        }
+        #menu{
+            width: 100%;
+            height: 30px;
+            border-bottom: 1px solid black;
+        }
+        #menu li{
+            display: inline-block;
+            padding-left: 30px;
+            padding-top: 5px;
+        }
+        #menu li a{
+            text-decoration: none;
+            color: rgb(203, 127, 13) ;
+            
+        }
+        #nav{
+            float: left;
+            width: 65%;
+            height: 420px;
+            border-right: 1px solid rgb(218, 215, 215);
+         
+        }
+        #aside{
+            width: 100%;
+            height: 420px;
+        }
+        #img1{
+            width: 800px;  
+        }
+        #text1{
+            text-shadow: -8px -8px 10px white;
+            padding-top: -20px;
+            padding-left: 30px;
+            font-size: 40px;
+            color: rgb(17, 106, 47);
+        }
+        #text2{
+            color: rgb(212, 114, 57);
+            padding-left: 10px;
+            font-size: 28px;
+        }
+        #text3{
+            color: rgb(231, 125, 64);
+            font-size: 19px;
+        }
+        #layout1{
+            padding-left: 60px;
+        }
+        #layout2{
+            position: relative;
+            left: 540px;
+            width: 210px;
+            height: 150px;
+            background-color: rgb(215, 164, 98);
+            color: white; /* Màu chữ trên nút */
+            border: none; /* Loại bỏ viền */
+            padding: 10px 20px; /* Khoảng cách giữa nội dung và viền của nút */
+            border-radius: 5px 5px 0 0; /* Đặt độ cong của góc, chỉ bo cong mỗi cạnh trên*/
+        }
+        #layout3{
+            position: relative;
+            left: 20px;
+            top: -190px;
+            color: #735050;
+        }
+        #layout3 li{
+            position: relative;
+            left: 20px;
+            color: rgb(181, 54, 54);
+            list-style-type: square;
+        }
+        #layout4{
+            position: relative;
+            top: -190px;
+            left: 30px;
+        }
+        #layout5{
+            position: relative;
+            left: 540px;
+            color: rgb(134, 130, 130);
+        }
+        #layout6{
+            position: relative;
+            left: 520px;
+            color: rgb(134, 130, 130);
+        }
+        #img2{
+            padding: 3px ;
+            border: 1px solid rgb(147, 146, 146) ;
+            width: 95px;
+            float: left;
+            position: relative;
+            left: 513px;
+            
+        }
+        #img3{
+            position: relative;
+            top: -84px;
+            width: 100%;
+            height: 80px;
+        }
+        #td1{
+            border-spacing: 15px;
+        }
+        #td1 input{
+            border: none;
+            border-bottom: 1px solid rgb(147, 146, 146);
+            outline: none;
+            width: 400px;
+        }
+        button{
+            background-color: rgb(142, 111, 31); /* Màu nền của nút */
+            color: white; /* Màu chữ trên nút */
+            border: none; /* Loại bỏ viền */
+            padding: 10px 20px; /* Khoảng cách giữa nội dung và viền của nút */
+            border-radius: 5px; /* Đường cong của góc */
+            cursor: pointer; /* Hiển thị con trỏ tay khi di chuột qua */
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="k1">
+        <div id="header">
+            <h1 id="text1">AUTUMN TRAVEL COMPANY</h1>
+        </div>
+        <div id="menu">
+            <div>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Products</a</li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Order</a></li>
+            </div>
+        </div>
+        <img src="../imgase/line.png" alt="" id="img1">
+        <div id="nav">
+            <h2 id="text2"><i>Sign up for membership benefits</i></h2>
+            <div id="layout1">
+                <p id="text3">
+                    <i>
+                        Our philisophical are transparency , respect , formality <br>
+                        and responsibility. Our stimulus is your enthusiasm.Our <br>
+                        motto is your satisfation.
+                    </i>
+                   <table id="td1">
+                        <tr>
+                            <td><input type="text" name="" id="" placeholder="Username"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="email" name="" id="" placeholder="E-mail"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><input type="password" name="" id="" placeholder="Pasword"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="" id="" placeholder="Repassword"></td>
+                        </tr>
+                   </table>
+                   <br>
+                   <button>SINGN ME UP</button>
+                </p>
+            </div>
+        </div>
+        <div id="aside">
+            <div id="layout2">
+            </div>
+            <div id="layout3">
+                <h1>Links</h1>
+                <br>
+                <li>Make your Own Tour</li>
+                <li>Maldives Tours</li>
+                <li>Nature & Adventure</li>
+                <li>Europe Tours</li>
+                <li>Rusia Tours</li>
+            </div>
+            <div id="layout4">
+                <h2>More info</h2>
+                <img src="../imgase/leaf.png" alt="error" id="img2">
+                <p id="layout5">
+                    Our <span style="padding: 10px;"></span>purpose <br>
+                    is <span style="padding: 5px;"></span>the <span style="padding: 5px;"></span>client <br>
+                    who <span style="padding: 5px;"></span>gives<span style="padding: 5px;"></span> to <br>
+                    us <span style="padding: 25px;"></span> the 
+                </p>
+                <p id="layout6">
+                    opportunites <span style="padding: 5px;"></span>to<span style="padding: 5px;"></span> serve<span style="padding: 5px;"></span> and <span style="padding: 5px;"></span>to <br>
+                    make <span style="padding: 6px;"></span>known <span style="padding: px;"></span>the<span style="padding: 5px;"></span> reality<br>
+                    arround the world
+                </p>
+            </div>
+        </div>
+        <img src="../imgase/footer.png" alt="" id="img3">
+    </div>
+</body>
+</html>

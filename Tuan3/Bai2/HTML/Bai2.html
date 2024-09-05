@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2</title>
+    <style>
+        #k1{
+            width: 880px;
+            height: 900px;
+            border: 1px solid black;
+            margin: auto;
+        
+        }
+        #nav{
+            width: 100%;
+            height: 100px;
+            background-color:#294e79  ;
+        }
+        
+        #img1{
+            height: 80px;
+            padding-left: 20px;
+            top: 10px;
+        }
+        #layout1{
+            position: relative;
+            top: -90px;
+            left: 100px;
+            color: aliceblue;
+        }
+        #nav #layout1 h5{
+            position: relative;
+            top: -20px;
+        }
+        #layout2{
+            position: relative;
+            top: -190px;
+            left: 640px;
+          
+        }
+        #nav ul{
+            list-style-type: none;
+        }
+        #nav ul li{
+            display: inline-block;
+            border: 1px solid #ccc; /* Màu và độ rộng của viền */
+            padding: 15px; /* Kích thước padding để tạo khoảng trắng xung quanh nội dung */
+            margin-bottom: 5px;
+            background-color: #8bb4e3;
+        }
+        #layout3{
+            position: relative;
+            top: -190px;
+            left: 300px;
+        }
+        #k2{
+            width: 65%;
+            float: left;
+            height: 500px;
+           
+            color: #767171;
+         
+        }
+        hr {
+            border: 1px dashed #ccc; /* Đường kẻ nét đứt, độ rộng 1px, màu xám #ccc */   
+            background: none; /* Loại bỏ màu nền */
+            margin: 20px 0; /* Khoảng cách trên và dưới đường kẻ */
+        }
+        #layout6{
+            padding-left: 10px;
+            padding-top: 30px;
+        }
+        #text1{
+            text-shadow: 2px 2px 4px;
+            color: brown;
+        }
+        #layout4{
+            float: left;
+            width: 58%;
+            height: 400px;
+           
+        }
+        td{
+            padding-right: -40px;
+        }
+        #k4{
+            width: 260px;
+            height: 380px;
+            position: relative;
+            background-color: rgb(236, 234, 231);
+            left: 605px;
+            top: 40px;
+        }
+        #text2 p{
+            font-size: 12px;
+        }
+        #text2{
+            position: relative;
+            left: 40px;
+        }
+        #text2 hr{
+            width: 195px;
+        }
+        #layout5{
+            padding-left: 10px;
+            position: relative;
+            top: -450px;
+            color: #767171;
+        }
+        #layout5 hr{
+            width: 230px;
+        }
+        a{
+            text-decoration: none;
+            padding-left: 140px;
+        }
+        #hr1{
+
+            border: 1px solid #ccc; /* Đường kẻ nét đứt, độ rộng 1px, màu xám #ccc */   
+            background: none; /* Loại bỏ màu nền */
+            margin: 20px 0; /* Khoảng cách trên và dưới đường kẻ */
+            height: 90px;
+        }
+        #k4 #layout5 #img1{
+            position: relative;
+            top: -106px;
+            left: -12px;
+        }
+        #layout5 p,a{
+            position: relative;
+            top: -100px;
+        }
+        #footer{
+            width: 100%;
+            height: 40px;
+            
+            color: white;
+            background-color: #2b507c;
+            position: relative;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="k1">
+        <div id="nav">
+            <img src="../imgase/flower.png" alt="" id="img1">
+            <div id="layout1">
+                <h1>FlowerBox 360</h1>
+                <h5>...to get your daily close of luxury roses!</h5>
+
+            </div>
+            <div id="layout2">
+                <input type="text" name="" id="" placeholder="Search the site...">
+                <button>Go</button>
+            </div>
+            <div id="layout3">
+                <ul>
+                    <li>Home</li>
+                    <li>Promotion</li>
+                    <li>Gift Baskets</li>
+                    <li>Flowers Services</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="k2">
+            <div id="layout6">
+                <h2><i>Why Not Contact Us Today!</i></h2>
+                <hr>
+                <div id="layout4">
+                    <p id="text1">
+                        For FlowerBox 360 shopers, that means not only<br>
+                        can  you send your friends and loves ones the<br>
+                        highest quality flowers found on online, but thatt you<br>
+                        can do so at a great value.
+                    </p>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="input1">Name:</label><br>
+                                <input type="text" name="input1" id="input1">
+                            </td>
+                            <td>
+                                <label for="input2">Email:</label><br>
+                                <input type="text" name="input1" id="input2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input3">Telephone:</label><br>
+                                <input type="text" name="input1" id="input3">
+                            </td>
+                            <td>
+                                <label for="input4">Subject:</label><br>
+                                <input type="text" name="input1" id="input4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="input1">Message:</label><br>
+                                <textarea name="" id="" cols="44" rows="5"></textarea>
+                            </td>
+                                
+                        </tr>
+                        <tr>
+                            <td>
+                                <button>Submit</button>
+                                <button>Reset</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="text2">
+                    <h3><i>FlowerBox 360 Info!</i></h3> 
+                    <hr>
+                    <p>
+                        Openationg Hours:<br>
+                        Monday-Friday:9:000am-5:00pm<br>
+                        Saturday:9:00am-1.00pm.<br>
+                        Sunday:CLosed (No Deliveries)<br>
+                        ORDER ONLINE 24/7
+                    </p>
+                    <br>
+                    <p>
+                        Software Engineering Dept.<br>
+                        Information Technology Faculty<br>
+                        First Floor, H Building
+                    </p>
+                   <p>
+                    12 Nguyen Van Bao, Ward 4,<br>
+                    Go Vap District, Ho Chi Minh City<br>
+                    Tel: 0283.8940 390<br>
+                    Fax: 0283.9940 954
+                   </p>
+                </div>
+      
+            </div>
+        </div>
+        <div id="k4">
+            <div id="layout5">
+                <h3><i>Discounts & Specials</i></h3>
+                <hr>    
+                <hr id="hr1">
+                <img src="../imgase/rose.png" alt="" id="img1">
+                <p>
+                    FlowerBox 360 offers many great<br> 
+                    discounts throught the year, from<br>
+                    coupons and coupon codes, to promo <br>
+                    codes and other savings. We also <br>
+                    offer military flower discounts to our <br>
+                    wonderfull troppps!
+                </p>
+                <a href="">Read More &#62;&#62;</a>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Copyright &#169; 2017 - All Rights Reserved - <span>Software Engineering Department - Industrial University of Ho Chi Minh City</span></p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
